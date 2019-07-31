@@ -1,0 +1,106 @@
+//tahseen anwar tahir
+
+import java.util.Scanner;
+
+
+public class t7 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i,j,k,sum1=0,sum2=0,sum3=0,avg;
+		//int a1,a2,a3,a4,b1,b2,b3,b4,c1,c2,c3,c4;
+		
+		Scanner input = new Scanner (System.in);
+		
+		System.out.println("enter number");
+		int a1 = input.nextInt();
+		
+		System.out.println("enter number");
+		int a2 = input.nextInt();
+		
+		System.out.println("enter number");
+		int a3 = input.nextInt();
+		
+		System.out.println("enter number");
+		int a4 = input.nextInt();
+		
+		System.out.println("enter number");
+		int b1 = input.nextInt();
+		
+		System.out.println("enter number");
+		int b2 = input.nextInt();
+		
+		System.out.println("enter number");
+		int b3 = input.nextInt();
+		
+		System.out.println("enter number");
+		int b4 = input.nextInt();
+		
+		System.out.println("enter number");
+		int c1 = input.nextInt();
+		
+		System.out.println("enter number");
+		int c2 = input.nextInt();
+		
+		System.out.println("enter number");
+		int c3 = input.nextInt();
+		
+		System.out.println("enter number");
+		int c4 = input.nextInt();
+		
+		
+		 sum1=a1+a2+a3+a4;
+		 sum2=b1+b2+b3+b4;
+		 sum3=c1+c2+c3+c4;
+		
+		float avg1=sum1/4;
+		float avg2=sum2/4;
+		float avg3=sum3/4;
+		
+		if (a>b && a>c)
+			System.out.println(sum1);
+		if (b>a && b>c)
+			System.out.println(sum1);
+		if (c>a && c>b)
+			System.out.println(sum1);
+		
+		
+//		int[] s1 = new int[20];
+//		int[] s2 = new int[20];
+//		int[] s3 = new int[20];
+//		
+//		
+//			for (j=0;j<4;j++)
+//			{
+//				System.out.println("input "+ (j+1) +"number for student 1");
+//				int n = input.nextInt();
+//				s1[j]=n;
+//				sum1+=n
+//				
+//			}
+//			for (j=0;j<4;j++)
+//			{
+//				System.out.println("input "+ (j+1) +"number for student 2");
+//				int n = input.nextInt();
+//				s2[j]=n;
+//				sum2+=n
+//				
+//			}
+//			for (j=0;j<4;j++)
+//			{
+//				System.out.println("input "+ (j+1) +"number for student 3");
+//				int n = input.nextInt();
+//				s3[j]=n;
+//				sum3+=n
+//				
+//			}
+			
+		
+				
+
+	}
+
+}

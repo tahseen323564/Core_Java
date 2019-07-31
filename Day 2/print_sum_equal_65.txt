@@ -1,0 +1,30 @@
+//tahseen anwar tahir
+
+
+public class t11 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int avg,sum=0,i,j,k;
+		int [] m = { 21,15,34,91,50,16,44};
+		
+		for(i=0;i<m.length;i++)
+		{
+			for(j=i;j<m.length;j++)
+			{
+				if(m[i]+m[j]==65)
+				{
+					System.out.println(m[i] + " + " + m[j] + " = " + " 65 ");
+					sum++;
+				}
+			}
+		}
+		System.out.println(sum);
+
+	}
+
+}

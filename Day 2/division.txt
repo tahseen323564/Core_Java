@@ -1,0 +1,33 @@
+//tahseen anwar tahir
+
+
+public class t5 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float f = 30;
+		if (f>=75)
+		{
+			System.out.print("FCD");
+		}
+		else if (f>=60)
+		{
+			System.out.print("FC");
+		}
+		else if(f>=50)
+		{
+			System.out.print("SC");
+		}
+		else if (f>=33)
+		{
+			System.out.print("PC");
+		}
+		else
+			System.out.print("F");
+
+	}
+
+}

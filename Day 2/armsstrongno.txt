@@ -1,0 +1,33 @@
+//tahseen anwar tahir
+
+mport java.util.Scanner;
+
+
+public class q3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner (System.in);
+		
+		int a1 = input.nextInt();
+		
+		String str = Integer.toString(a1);
+		int l = str.length();
+		
+		int sum=0,temp=a1;
+		while (a1>0)
+		{
+			sum+=Math.pow(a1%10,l);
+			a1/=10;
+		}
+		if (sum==temp)
+			System.out.println("armstrong num");
+		else
+			System.out.println("no");
+
+	}
+
+}
