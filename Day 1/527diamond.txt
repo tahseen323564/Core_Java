@@ -1,0 +1,36 @@
+// tahseen anwar tahir
+
+//wap to print diamond
+
+
+public class t2 {
+	public static void main(String[] args)
+	{
+		int i,j,k;
+		for (i=0;i<4;i++)
+		{
+			for (j=3;j>i;j--)
+			{
+				System.out.print(" ");
+			}
+			for (j=0;j<=i;j++)
+			{
+				System.out.print(9-2*i+ " ");
+			}
+			System.out.println();
+		}
+		for(i=0;i<3;i++)
+		{
+			for(j=0;j<=i;j++)
+			{
+				System.out.print(" ");
+			}
+			for (j=3;j>i;j--)
+			{
+				System.out.print(5+2*i+" ");
+			}
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+// tahseen anwar tahir
+
+//wap to count no. of words
+public class ta3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i,j=0,k;
+		String text= "i am learning core java";
+		for(i=0;i<text.length();i++)
+		{
+			char c=text.charAt(i);
+			if(c ==' ')
+			{
+				j++;
+			}
+		}
+		System.out.print(j+1);
+
+	}
+
+}
